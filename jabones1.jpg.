@@ -20,20 +20,6 @@
 
       text-align: center;
 
-      padding: 30px;
-
-    }
-
-    h1 {
-
-      color: #7b1fa2;
-
-    }
-
-    p {
-
-      font-size: 18px;
-
       color: #4a148c;
 
     }
@@ -58,7 +44,7 @@
 
   <p>Jabones artesanales hechos con amor y productos naturales 💜</p>
 
-  <img src="https://shovotashp.github.io/assets/jabones1.jpg" alt="Jabones artesanales" />
+  <img src="jabones1.jpg" alt="Jabón artesanal de Shovota" />
 
 </body>
 
