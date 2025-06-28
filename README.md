@@ -1,2 +1,2 @@
 # shovota-
-Mi pagina de  jabones artesanales
+"Tienda online de Shovota | Jabones artesanales, productos de belleza y artículos personales."
