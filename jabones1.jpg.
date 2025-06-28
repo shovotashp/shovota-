@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Shovota - Jabones Artesanales</title>
+
+  <style>
+
+    body {
+
+      background-color: #f3e5f5;
+
+      font-family: 'Arial', sans-serif;
+
+      text-align: center;
+
+      padding: 30px;
+
+    }
+
+    h1 {
+
+      color: #7b1fa2;
+
+    }
+
+    p {
+
+      font-size: 18px;
+
+      color: #4a148c;
+
+    }
+
+    img {
+
+      width: 300px;
+
+      border-radius: 15px;
+
+      margin-top: 20px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Bienvenid@ a Shovota</h1>
+
+  <p>Jabones artesanales hechos con amor y productos naturales 💜</p>
+
+  <img src="https://shovotashp.github.io/assets/jabones1.jpg" alt="Jabones artesanales" />
+
+</body>
+
+</html>
