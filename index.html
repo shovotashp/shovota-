@@ -1,64 +1,135 @@
-
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
   <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shovota - Jabones Artesanales</title>
-
   <style>
-
     body {
-
-      background-color: #f3e5f5;
-
-      font-family: 'Arial', sans-serif;
-
+      background-color: #fff8f5;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+    }
+    header {
+      background-color: #d8c4e6;
+      padding: 20px;
       text-align: center;
-
-      padding: 30px;
-
+      color: #4b2a64;
     }
-
-    h1 {
-
-      color: #7b1fa2;
-
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
     }
-
-    p {
-
-      font-size: 18px;
-
-      color: #4a148c;
-
+    nav a {
+      margin: 0 15px;
+      color: #4b2a64;
+      font-weight: bold;
+      text-decoration: none;
     }
-
-    img {
-
-      width: 300px;
-
-      border-radius: 15px;
-
-      margin-top: 20px;
-
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
-
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #f5e9f7;
+      border-radius: 12px;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #663c82;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: auto;
+    }
+    .card p {
+      margin: 10px 0 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background-color: #e3d2ea;
+      color: #5a3e76;
+    }
   </style>
-
 </head>
-
 <body>
+  <header>
+    <h1>Shovota</h1>
+    <nav>
+      <a href="#curso">Curso</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-  <h1>Bienvenid@ a Shovota</h1>
+  <section class="hero">
+    <h2>El arte de crear belleza con tus manos</h2>
+    <p>Aprende a hacer jabones naturales y emprende con tu esencia.</p>
+  </section>
 
-  <p>Jabones artesanales hechos con amor y productos naturales 💜</p>
+  <section id="curso">
+    <h2>Curso "Tu Esencia en Jabón"</h2>
+    <div class="card">
+      <img src="https://shovotashp.github.io/shovota/jabon_curso.jpg" alt="Curso de Jabones">
+      <p><strong>Curso completo paso a paso</strong></p>
+      <p>$25 USD</p>
+      <p>Incluye recetas, tips de venta, materiales y más</p>
+      <p>Contacto: <strong>shovotashop@gmail.com</strong></p>
+    </div>
+  </section>
 
-  <img src="jabones1.jpg" alt="Jabón artesanal de Shovota" /</body>
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://shovotashp.github.io/shovota/molde_corazon.jpg" alt="Molde de silicona corazón">
+        <p>Molde de silicona corazón</p>
+        <p><strong>$12</strong></p>
+      </div>
+      <div class="card">
+        <img src="https://shovotashp.github.io/shovota/aromatizante_lavanda.jpg" alt="Aromatizante de lavanda">
+        <p>Aromatizante de lavanda</p>
+        <p><strong>$8</strong></p>
+      </div>
+      <div class="card">
+        <img src="https://shovotashp.github.io/shovota/jabon_curcuma.jpg" alt="Jabón de cúrcuma natural">
+        <p>Jabón de cúrcuma natural</p>
+        <p><strong>$12</strong></p>
+      </div>
+    </div>
+  </section>
 
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Escríbenos a <strong>shovotashop@gmail.com</strong> o búscanos en Facebook como <strong>Shovota Paulino</strong>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shovota. Todos los derechos reservados.</p>
+  </footer>
+</body>
 </html>
